@@ -21,7 +21,7 @@
   "autoload": {
     "psr-4": {
       "Fragmency\\FragmencyScript\\": "src/"
-    },
+    }
   },
   "scripts": {
     "post-install-cmd": [
