@@ -1,0 +1,26 @@
+{
+  "name": "slordef/fragmency-script",
+  "description": "Fragmency PHP is a package for dev website easily",
+  "version": "1.0.0",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Slordef",
+      "email": "slordef.vikamet@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0",
+    "vlucas/phpdotenv": "^4.1",
+    "slordef/fragmency-core": "dev-master",
+    "slordef/fragmency-db": "dev-master",
+    "slordef/fragmency-files": "dev-master"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Fragmency\\FragmencyScript\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<?php
+
+namespace Migration;
+use Fragmency\Database\Migration as Setup;
+use Fragmency\Database\Table;
+
+class <%NAME%> extends Setup
+{
+    public function migrate(){
+        Table::use('Name',function (Table $table){
+            $table->string('Column');
+        });
+        /*
+         * Use 'Table' class for alter
+         * column 'id' is create and primary autoincrement automaticaly
+         *
+         * Examples:
+         *
+         * Table::[create,modify,delete]('name',function (Table $table) {})
+         *
+         * $table->[type]('column_name')
+         *      [->nullable(bool)]
+         *
+         * $table->mod('column')
+         *      [->type(type)]
+         *      [->nullable(bool)]
+         *      [->rename('column_name_old','column_name_new')]
+         * with mod, column is reset on default config :
+         *
+         * $table->drop('column')
+         */
+    }
+}
