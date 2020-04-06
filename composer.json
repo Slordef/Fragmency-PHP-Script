@@ -20,7 +20,8 @@
   "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
-      "Fragmency\\FragmencyScript\\": "src/"
+      "Fragmency\\FragmencyScript\\": "src/",
+      "Fragmency\\FragmencyScript\\": "src/actions/"
     }
   },
   "scripts": {

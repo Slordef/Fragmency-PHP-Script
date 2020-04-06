@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FragmencyScript;
+namespace Fragmency\FragmencyScript;
 
 
 trait runTest

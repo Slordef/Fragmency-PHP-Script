@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Fragmency\Database;
+namespace Fragmency\FragmencyScript;
 
 
 use FragmencyScript\ScriptOutput as SO;

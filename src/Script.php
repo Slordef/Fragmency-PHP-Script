@@ -1,14 +1,12 @@
 <?php
 
 
-namespace FragmencyScript;
+namespace Fragmency\FragmencyScript;
 
 use Dotenv\Dotenv;
 use Fragmency\Core\Application;
-use Fragmency\Database\MigrationManager;
-use Fragmency\Database\Table;
 use Fragmency\Files\Files;
-use FragmencyScript\ScriptOutput as SO;
+use Fragmency\FragmencyScript\ScriptOutput as SO;
 
 const FRAGMENCY_ERROR_SCRIPT_UNKNOWN = 0;
 const FRAGMENCY_ERROR_SCRIPT_NOARGS = 1;

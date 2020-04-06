@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Fragmency\Database;
+namespace Fragmency\FragmencyScript;
 
 abstract class Migration
 {
