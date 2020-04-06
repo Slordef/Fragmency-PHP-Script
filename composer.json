@@ -21,8 +21,8 @@
   "autoload": {
     "psr-4": {
       "Fragmency\\FragmencyScript\\": "src/",
-      "Fragmency\\FragmencyScript\\Actions": "src/Actions",
-      "Fragmency\\FragmencyScript\\Migrations": "src/Migrations"
+      "Fragmency\\FragmencyScript\\Actions": "src/Actions/",
+      "Fragmency\\FragmencyScript\\Migrations": "src/Migrations/"
     }
   },
   "scripts": {
