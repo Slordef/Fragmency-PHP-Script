@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Fragmency\FragmencyScript;
+namespace Fragmency\FragmencyScript\Actions;
 
 
 use Fragmency\Files\Files;

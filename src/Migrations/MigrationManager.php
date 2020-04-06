@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Fragmency\FragmencyScript;
+namespace Fragmency\FragmencyScript\Migrations;
 
 
 use FragmencyScript\ScriptOutput as SO;
