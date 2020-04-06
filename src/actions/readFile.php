@@ -5,7 +5,7 @@ namespace Fragmency\FragmencyScript\Actions;
 
 
 use Fragmency\Files\Files;
-use FragmencyScript\ScriptOutput as SO;
+use Fragmency\FragmencyScript\ScriptOutput as SO;
 
 trait readFile
 {

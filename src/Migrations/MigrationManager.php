@@ -4,7 +4,7 @@
 namespace Fragmency\FragmencyScript\Migrations;
 
 
-use FragmencyScript\ScriptOutput as SO;
+use Fragmency\FragmencyScript\ScriptOutput as SO;
 
 class MigrationManager
 {

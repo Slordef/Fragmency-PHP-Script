@@ -6,6 +6,10 @@ namespace Fragmency\FragmencyScript;
 use Dotenv\Dotenv;
 use Fragmency\Core\Application;
 use Fragmency\Files\Files;
+use Fragmency\FragmencyScript\Actions\newController;
+use Fragmency\FragmencyScript\Actions\newMigration;
+use Fragmency\FragmencyScript\Actions\newModel;
+use Fragmency\FragmencyScript\Actions\runMigration;
 use Fragmency\FragmencyScript\ScriptOutput as SO;
 
 const FRAGMENCY_ERROR_SCRIPT_UNKNOWN = 0;

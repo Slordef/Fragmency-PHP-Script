@@ -4,8 +4,8 @@
 namespace Fragmency\FragmencyScript\Actions;
 
 
-use Fragmency\Database\MigrationManager;
-use Fragmency\Database\Table;
+use Fragmency\FragmencyScript\Migrations\MigrationManager;
+use Fragmency\FragmencyScript\Migrations\Table;
 
 trait runMigration
 {
